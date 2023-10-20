@@ -25,9 +25,17 @@ section#iphone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 600px;
-    width: 500px;
-    background: url("imagens/frame-iphone.png");
+    height: 620px;
+    width: 300px;
+    background: url("imagens/frame-iphone.png") no-repeat center center;
+}
+
+iframe#tela {
+    position: relative;
+    top: 76px;
+    left: 17px;
+    width: 267px;
+    height: 472px;
 }
 
 section#redes-sociais a > img {
@@ -41,6 +49,6 @@ section#redes-sociais a > img {
 section#redes-sociais a > img:hover {
     border: 1px solid white;
     transition: 1s;
-    padding-left: 3px;
+    margin-left: 3px;
 }
 
